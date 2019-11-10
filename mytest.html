@@ -10947,15 +10947,17 @@ div.output_area .MathJax_Display {
 }
 div.output_area .rendered_html table { /* PAULOS CSS */
   margin-left: 0;
-  margin-right: 0; width: auto; border: 1px solid black;
+  margin-right: 0; width: auto; border: 2px groove coral;  /* table border */
 }
 div.output_area .rendered_html img {
   margin-left: 0;
   margin-right: 0;
 }
-div.output_area .rendered_html table th { text-align: center; vertical-align:bottom; }  /* PAULOS CSS */
+div.output_area .rendered_html table th { text-align: center; border: 1px solid black; font-size: 1.2em; color: inherit; }  /* PAULOS CSS */
 
-div.output_area .rendered_html table tr { border: 1px solid black; }
+div.output_area .rendered_html table tr { border: 1px solid black;  }  
+
+
 
 div.output_area img,
 div.output_area svg {
@@ -11250,17 +11252,17 @@ div.output_unrecognized a:hover {
 .rendered_html tr,
 .rendered_html th,
 .rendered_html td {      /* PAULOS CSS */
-  text-align: center;
+  text-align: center;      /* align at center the table tr and td */
   vertical-align: middle;
   padding: 0.5em 0.5em;
   line-height: normal;
   white-space: normal;
   max-width: none;
-  border: none;
+  border: 1px solid black;
 }
 .rendered_html th {
   font-weight: bold;
-  text-align: center;
+  text-align: left;
 }
 .rendered_html tbody tr:nth-child(odd) {
   background: #f5f5f5;
@@ -11341,6 +11343,9 @@ a.anchor-link:link {
   padding: 0px 20px;
   visibility: hidden;
 }
+
+
+
 h1:hover .anchor-link,
 h2:hover .anchor-link,
 h3:hover .anchor-link,
@@ -13058,7 +13063,7 @@ body {
 }
 
 /* PAULOS CSS */
-.center-pos { 
+.center-pos {     /* h2 position */
   text-align: center; 
   border-bottom: thin dashed black;
   font-weight: bold;
@@ -13076,7 +13081,7 @@ h2 { font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; font-wei
 
 p,span,div { font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; line-height: 1.3em; }
 
-body {  background-color: #c4e7ed; }
+body {  background-color: rgba(93, 0, 30,0.5); }
 
 li,table { font-family: 'Muli',  Courier, monospace; }
 
@@ -13084,7 +13089,7 @@ li,table { font-family: 'Muli',  Courier, monospace; }
 
 .render:hover { color: #ff8f66; width: 6em;}
 
-.cell { background-color: #fffae6; }
+.cell,.rendered_html { background-color: #E3E2DF; }
 
 .size-lett { font-size: 1.2em; margin-top: 1.5em; }
 
@@ -13143,7 +13148,7 @@ div#notebook {
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+<div class="cell border-box-sizin1g text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Life-Expectancy-and-GDP-Data" class="center-pos">Life Expectancy and GDP Data<!--<a class="anchor-link" href="#Life-Expectancy-and-GDP-Data">&#182;</a>--></h2>
